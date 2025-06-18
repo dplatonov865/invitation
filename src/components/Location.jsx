@@ -19,7 +19,7 @@ function Location() {
           className="direction-button"
           onClick={handleDirectionsClick}
         >
-          📍 Получить маршрут
+          📍 Посмотреть на карте
         </button>
       </div>
     </section>
