@@ -64,21 +64,21 @@ body {
 
 h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 2em;
+  font-size: 1.9em;
   text-align: center;
 }
 
 h2 {
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: var(--text);
   margin: 1rem 0;
 }
 
 h3 {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 1em;
+  font-size: 1.2em;
   text-align: center;
   font-weight: normal;
   color: var(--text);
@@ -97,7 +97,7 @@ h3 {
 }
 
 .guest-name h1 {
-  font-size: 2rem;
+  font-size: 1.9rem;
   color: var(--text);
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -114,12 +114,24 @@ h3 {
   margin-bottom: 1rem;
 }
 
+.header .date {
+  max-width: 550px;
+  height: auto;
+  object-fit: cover;
+  border: 4px solid #f8e8ff;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  display: block;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
 .header .date h1 {
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 2.2em;
+  font-size: 2em;
   font-weight: bold;
-  color: #56226e;
+  color: #BA55D3;
 }
 
 .header-image {
@@ -136,14 +148,14 @@ h3 {
   max-width: 550px;
   height: auto;
   object-fit: cover;
-  border: 4px solid var(--secondary);
+  border: 4px solid #f8e8ff;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   margin: 0 auto;
   display: block;
 }
 
 .header h1 {
-  font-size: 2rem;
+  font-size: 1.9rem;
   color: var(--text);
   margin-bottom: 0.5rem;
   color: var(--text);
@@ -169,7 +181,7 @@ h3 {
   }
   
   .header h1 {
-    font-size: 1.25rem;
+    font-size: 1.9rem;
   }
   
 }
