@@ -261,12 +261,13 @@ button {
 }
 
 .gallery {
-  margin: 1rem 0;
+  display: grid;
+  justify-content: center;
 }
 
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 0.5rem;
   margin-top: 1rem;
 }
