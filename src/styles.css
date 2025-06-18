@@ -64,14 +64,14 @@ body {
 
 h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 1.9em;
+  font-size: 1.8em;
   text-align: center;
 }
 
 h2 {
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 1.4em;
+  font-size: 1.3em;
   color: var(--text);
   margin: 1rem 0;
 }
@@ -97,7 +97,7 @@ h3 {
 }
 
 .guest-name h1 {
-  font-size: 1.9rem;
+  font-size: 1.8rem;
   color: var(--text);
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -155,7 +155,7 @@ h3 {
 }
 
 .header h1 {
-  font-size: 1.9rem;
+  font-size: 1.8rem;
   color: var(--text);
   margin-bottom: 0.5rem;
   color: var(--text);
@@ -167,7 +167,13 @@ h3 {
   .header {
     padding: 0.5rem 0;
   }
-  
+
+  .header .date {
+    max-width: 300px;
+    height: auto;
+    border-width: 0.5rem;
+  }
+
   .header-image {
     max-width: 300px;
     height: auto;
@@ -181,7 +187,7 @@ h3 {
   }
   
   .header h1 {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
   }
   
 }
