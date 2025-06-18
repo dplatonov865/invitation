@@ -8,12 +8,11 @@ function Location() {
 
   return (
     <section className="location">
-      <h2>Банкет</h2>
+      <h1>Банкет</h1>
       <div className="venue">
-        <h3>Ресторан «Lion»</h3>
-        <p>Адрес: ул. Перовская, д. 61/2с1</p>
-        <p>Начало в 15:00</p>
-        {/* <img src={photo} alt={`Фото ресторана`} />  */}
+        <h2>Ресторан «Lion»</h2>
+        <h3>Начало в 15:00</h3>
+        <h3>Адрес: ул. Перовская, д. 61/2с1</h3>
       </div>
       <div className="location-buttons">
         <button 

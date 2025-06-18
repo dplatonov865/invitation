@@ -13,7 +13,6 @@ function LocationZags() {
         <h2>Торжественная церемония во Дворце бракосочетания № 5</h2>
         <h3>Начало в 11:00</h3>
         <h3>Адрес: Измайловское ш., д. 73Ж</h3>
-        {/* <img src={photo} alt={`Фото ЗАГСа`} /> */}
       </div>
       <div className="location-buttons">
         <button 
